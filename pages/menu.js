@@ -2,7 +2,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>
+    <div className="h-96">
       <h1>Menu</h1>
     </div>
   )
