@@ -1,12 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Head from "../components/Head"
-
+import HeaderCarousel from '../components/HeaderCarousel'
 export default function Home() {
   return (
-    <div className="h-96">
-      <div>
-        <h1 className="text-2xl text-gray-800">Lazybeach, Koh Rong Sanloem</h1>
+    <div className="w-full mx-auto mb-20">
+      <HeaderCarousel />
+      <div className="w-full flex flex-row px-20">
+        Welcome to Lazybeach, Koh Rong Sanloem
       </div>
     </div>
   )

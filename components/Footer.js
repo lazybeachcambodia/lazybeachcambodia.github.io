@@ -3,14 +3,14 @@ import { FaInstagram, FaEnvelope, FaWhatsapp, FaPhoneAlt, FaFacebookF, FaTelegra
 
 const Footer = () => {
   return (
-    <footer className="w-full flex flex-col gap-6">
+    <footer className="w-full flex flex-col gap-6 mt-20">
       <div className="self-center flex flex-col">
         <img src="/lazybeach-logo.png" className="object-contain h-24 w-auto self-center" />
         <span className="text-center text-sm">KOH RONG SANLOEM, CAMBODIA</span>
       </div>
       <div className="flex flex-row justify-around">
         <div className="flex flex-col gap-4">
-          <h2 className="text-xl uppercase">Get In Touch</h2>
+          <h2 className="text-lg uppercase">Get In Touch</h2>
           <div className="flex flex-col gap-2">
             <div className="flex flex-col">
               <div className="flex flex-row justify-between">
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <h4 className="text-xl uppercase">Contents</h4>
+          <h4 className="text-lg uppercase">Contents</h4>
           <div className="flex flex-col text-gray-600 gap-2 uppercase">
             <a href="">Home</a>
             <a href="">Rooms</a>
@@ -48,8 +48,8 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-4">
           <div className="flex flex-col">
-            <h4 className="uppercase">Connect with us</h4>
-            <h5 className="text-xs text-gray-600">SOCIAL MEDIA CHANNELS</h5>
+            <h4 className="text-lg uppercase">Connect with us</h4>
+            <h5 className="text-xs text-center text-gray-600">SOCIAL MEDIA CHANNELS</h5>
           </div>
           <div className="pt-4 flex flex-row gap-2">
             <a target="_blank" href="https://fb.com/lazybeachkohrongsanloem">
