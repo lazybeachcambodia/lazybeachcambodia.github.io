@@ -3,7 +3,7 @@ import { FaInstagram, FaEnvelope, FaWhatsapp, FaPhoneAlt, FaFacebookF, FaTelegra
 
 const Footer = () => {
   return (
-    <footer className="w-full flex flex-col gap-6 mt-20">
+    <footer className="w-full flex flex-col gap-6 mt-20 border-t border-primary pt-10">
       <div className="self-center flex flex-col">
         <img src="/lazybeach-logo.png" className="object-contain h-24 w-auto self-center" />
         <span className="text-center text-sm">KOH RONG SANLOEM, CAMBODIA</span>
@@ -20,17 +20,19 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col gap-1 items-center self-start">
-              <a href="tel:+85516214211" className="text-lg text-primary">+85516214211</a>
-              <div className="flex flex-row gap-4">
-                <a alter="+85516214211" target="_blank" href="tel:+85516214211">
-                  <FaPhoneAlt className="btn-icons-connect" />
-                </a>
-                <a alter="+85516214211" target="_blank" href="https://wa.me/+85516214211">
-                  <FaWhatsapp className="btn-icons-connect" />
-                </a>
-                <a href="https://t.me/+85516214211">
-                  <FaTelegramPlane className="btn-icons-connect" />
-                </a>
+              <div className="flex flex-col gap-1 ">
+                <a href="tel:+85516214211" className="text-lg text-primary">+85516214211</a>
+                <div className="flex flex-row">
+                  <a alter="+85516214211" target="_blank" href="tel:+85516214211">
+                    <FaPhoneAlt className="btn-icons-connect" />
+                  </a>
+                  <a alter="+85516214211" target="_blank" href="https://wa.me/+85516214211">
+                    <FaWhatsapp className="btn-icons-connect" />
+                  </a>
+                  <a href="https://t.me/+85516214211">
+                    <FaTelegramPlane className="btn-icons-connect" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

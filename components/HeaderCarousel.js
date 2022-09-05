@@ -33,8 +33,8 @@ const HeaderCarousel = () => {
             alt="..."
           />
           <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">Our beach front bungalows</h5>
-            <p>A Rustic local style bungalows, just right in front of the beach.</p>
+            <h5 className="text-4xl">Our beach front bungalows</h5>
+            <p className="text-2xl">A Rustic local style bungalows, just right in front of the beach.</p>
           </div>
         </div>
         <div className="carousel-item relative float-left w-full">
@@ -44,8 +44,8 @@ const HeaderCarousel = () => {
             alt="..."
           />
           <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">The view from our bar</h5>
-            <p>Our sea view restaurant and bar serve with best foods and drinks.</p>
+            <h5 className="text-4xl">The view from our bar</h5>
+            <p className="text-2xl">Our sea view restaurant and bar serve with best foods and drinks.</p>
           </div>
         </div>
         <div className="carousel-item relative float-left w-full">
@@ -55,8 +55,8 @@ const HeaderCarousel = () => {
             alt="..."
           />
           <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">The beach</h5>
-            <p>Golden sand and crystal clear water.</p>
+            <h5 className="text-4xl">The beach</h5>
+            <p className="text-2xl">Golden sand and crystal clear water.</p>
           </div>
         </div>
       </div>

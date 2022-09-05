@@ -18,12 +18,22 @@ const Navbar = () => {
               <a className={router.pathname == "/" ? "active-navbar" : "navbar"}>
                 <span>Home</span>
               </a>
-            </Link>
-            <Link href="/menu">
-              <a className={router.pathname == "/menu" ? "active-navbar" : "navbar"}>
-                <span>Menu</span>
+          </Link>
+          <Link href="/restuarant">
+            <a className={router.pathname == "/restuarant" ? "active-navbar" : "navbar"}>
+              <span>restuarant</span>
               </a>
-            </Link>
+          </Link>
+          <Link href="/room">
+            <a className={router.pathname == "/room" ? "active-navbar" : "navbar"}>
+              <span>Room</span>
+            </a>
+          </Link>
+          <Link href="/gallery">
+            <a className={router.pathname == "/gallery" ? "active-navbar" : "navbar"}>
+              <span>Gallery</span>
+            </a>
+          </Link>
           </div>
           <div className="pt-4 flex flex-row gap-2">
             <a alter="+85516214211" target="_blank" href="https://wa.me/+85516214211">
